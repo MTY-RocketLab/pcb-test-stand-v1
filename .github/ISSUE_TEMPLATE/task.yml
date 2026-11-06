@@ -1,0 +1,34 @@
+name: Tarea de diseño
+description: Tarea para el sprint (esquemático, layout, librería, etc.)
+title: "[SRAD] "
+labels: []
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: ¿Qué hay que hacer?
+      placeholder: Diseñar el esquemático del barómetro (MS5611) con su desacoplo y conexión SPI.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de terminado
+      description: ¿Cómo sabemos que ya está?
+      value: |
+        - [ ] 
+        - [ ] Pasa ERC/DRC sin errores
+        - [ ] PR abierto y revisado
+    validations:
+      required: true
+  - type: input
+    id: hoja
+    attributes:
+      label: Hoja / archivo
+      placeholder: Barometer.SchDoc
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Referencias
+      description: Datasheets, notas de aplicación, diseños anteriores
