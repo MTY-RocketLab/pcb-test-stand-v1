@@ -1,6 +1,6 @@
 name: Tarea de diseño
 description: Tarea para el sprint (esquemático, layout, librería, etc.)
-title: "[SRAD] "
+title: "[TS] "
 labels: []
 body:
   - type: textarea
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Descripción
       description: ¿Qué hay que hacer?
-      placeholder: Diseñar el esquemático del barómetro (MS5611) con su desacoplo y conexión SPI.
+      placeholder: Diseñar el esquemático del acondicionamiento de la celda de carga (HX711) con su conector y filtrado.
     validations:
       required: true
   - type: textarea
@@ -26,7 +26,7 @@ body:
     id: hoja
     attributes:
       label: Hoja / archivo
-      placeholder: Barometer.SchDoc
+      placeholder: LoadCell.SchDoc
   - type: textarea
     id: referencias
     attributes:
