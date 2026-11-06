@@ -1,0 +1,15 @@
+# Altium
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
+*.LOG
+*.bak
+~$*
+
+# OS
+.DS_Store
+Thumbs.db
